@@ -2,20 +2,36 @@
   "expo": {
     "name": "SocialApp",
     "slug": "SocialApp",
+    "scheme": "socialapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "SocialApp membutuhkan kamera untuk membuat story.",
+        "NSLocationWhenInUseUsageDescription": "SocialApp membutuhkan lokasi untuk menampilkan nearby users.",
+        "NSPhotoLibraryUsageDescription": "SocialApp membutuhkan galeri untuk memilih foto.",
+        "NSPhotoLibraryAddUsageDescription": "SocialApp membutuhkan izin untuk menyimpan foto ke galeri."
+      }
     },
     "android": {
+      "package": "com.latanza.socialapp",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_MEDIA_IMAGES",
+        "WRITE_EXTERNAL_STORAGE",
+        "POST_NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +40,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "SocialApp membutuhkan galeri untuk memilih foto.",
+          "savePhotosPermission": "SocialApp membutuhkan izin untuk menyimpan foto ke galeri.",
+          "granularPermissions": [
+            "photo"
+          ]
+        }
+      ]
+    ]
   }
 }
