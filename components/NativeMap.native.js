@@ -4,9 +4,10 @@ import MapView, { Marker } from 'react-native-maps';
 import { StyleSheet, Text, View } from 'react-native';
 
 const googleMapsApiKey = Constants.expoConfig?.android?.config?.googleMaps?.apiKey;
+const isExpoGo = Constants.appOwnership === 'expo';
 
 export default function NativeMap({ region, users, style }) {
-  if (!googleMapsApiKey || googleMapsApiKey === 'YOUR_GOOGLE_MAPS_API_KEY') {
+  if (!isExpoGo && (!googleMapsApiKey || googleMapsApiKey === 'YOUR_GOOGLE_MAPS_API_KEY')) {
     return (
       <View style={[style, styles.fallback]}>
         <Ionicons name="map" size={42} color="#18604c" />
