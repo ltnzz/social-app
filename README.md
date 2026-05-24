@@ -4,11 +4,9 @@ SocialApp adalah aplikasi Expo SDK 54 untuk praktikum mobile lanjut. Aplikasi in
 
 ## Informasi Mahasiswa
 
-| Data | Keterangan |
-| --- | --- |
-| Nama | Latanza Akbar Fadilah |
-| NIM | 2410501004 |
-| Kelas | B |
+Nama: Latanza Akbar Fadilah  
+NIM: 2410501004  
+Kelas: B
 
 ## Preview
 
