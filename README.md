@@ -2,6 +2,14 @@
 
 SocialApp adalah aplikasi Expo SDK 54 untuk praktikum mobile lanjut. Aplikasi ini menguji permission flow, kamera, manipulasi gambar, lokasi, map, notifikasi lokal, file system, sharing, dan media library.
 
+## Informasi Mahasiswa
+
+| Data | Keterangan |
+| --- | --- |
+| Nama | Latanza Akbar Fadilah |
+| NIM | 2410501004 |
+| Kelas | B |
+
 ## Preview
 
 | Home | Camera Preview | Nearby Users |
@@ -23,6 +31,30 @@ SocialApp adalah aplikasi Expo SDK 54 untuk praktikum mobile lanjut. Aplikasi in
 - File System memakai `expo-file-system` untuk menulis dan membaca JSON lokal.
 - Sharing memakai `expo-sharing`.
 - Media Library memakai `expo-media-library` untuk menyimpan foto ke galeri atau album app jika didukung.
+
+## Dependensi Utama
+
+| Dependensi | Fungsi |
+| --- | --- |
+| `expo` | Runtime dan tooling utama Expo SDK 54. |
+| `react` | Library UI utama. |
+| `react-native` | Framework aplikasi mobile native. |
+| `@react-navigation/native` | Navigasi utama aplikasi. |
+| `@react-navigation/bottom-tabs` | Navigasi tab bawah. |
+| `@expo/vector-icons` | Icon UI berbasis Ionicons. |
+| `expo-camera` | Kamera dan pengambilan foto. |
+| `expo-image-picker` | Memilih foto dari galeri. |
+| `expo-image-manipulator` | Resize dan compress gambar. |
+| `expo-location` | Permission dan koordinat GPS. |
+| `react-native-maps` | Tampilan MapView dan Marker. |
+| `expo-notifications` | Local notification dan listener notifikasi. |
+| `expo-file-system` | Tulis dan baca file JSON lokal. |
+| `expo-sharing` | Membuka dialog share file. |
+| `expo-media-library` | Menyimpan foto ke galeri atau album app. |
+| `expo-status-bar` | Pengaturan status bar. |
+| `react-native-safe-area-context` | Safe area untuk status bar dan area bawah device. |
+| `react-native-screens` | Optimasi screen navigation native. |
+| `expo-constants` | Membaca metadata runtime, termasuk deteksi Expo Go. |
 
 ## Dukungan Expo Go
 
