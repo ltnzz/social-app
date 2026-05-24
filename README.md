@@ -4,15 +4,13 @@ SocialApp adalah aplikasi Expo SDK 54 untuk praktikum mobile lanjut. Aplikasi in
 
 ## Preview
 
-Tambahkan screenshot hasil uji aplikasi di bagian ini.
-
-| Home | Camera Preview | Profile |
+| Home | Camera Preview | Nearby Users |
 | --- | --- | --- |
-| ![Home screenshot](./docs/screenshots/home.png) | ![Camera screenshot](./docs/screenshots/camera.png) | ![Profile screenshot](./docs/screenshots/profile.png) |
+| ![Home screenshot](./screenshot/home.jpeg) | ![Camera screenshot](./screenshot/camera.jpeg) | ![Nearby screenshot](./screenshot/nearby.jpeg) |
 
-| Map / Location | Notification | Media Save |
+| Profile | Post Filter | Sharing |
 | --- | --- | --- |
-| ![Map screenshot](./docs/screenshots/map.png) | ![Notification screenshot](./docs/screenshots/notification.png) | ![Media screenshot](./docs/screenshots/media-save.png) |
+| ![Profile screenshot](./screenshot/profile.jpeg) | ![Post filter screenshot](./screenshot/profile2.jpeg) | ![Share screenshot](./screenshot/share.jpeg) |
 
 ## Fitur
 
